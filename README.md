@@ -19,3 +19,14 @@ Check it out here: [https://vineet574.github.io/click-the-box-game/](https://vin
 1. Clone the repository:
    ```bash
    git clone https://github.com/vineet574/click-the-box-game.git
+New Features:
+Timer Countdown (e.g. 30 seconds to click as much as you can).
+
+Start/Restart Button.
+
+High Score Tracking.
+
+Game Over Message.
+
+Responsive Styling & Smooth Transitions.
+
