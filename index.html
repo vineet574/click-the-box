@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Click the Box Game</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    #box {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    #ui {
+      position: fixed;
+      top: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-size: 18px;
+    }
+    #startBtn {
+      padding: 5px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>Click the Box!</h1>
-  <p>Score: <span id="score">0</span></p>
-  <div id="box"></div>
 
-  <script src="script.js"></script>
+<div id="box"></div>
+
+<div id="ui">
+  <div>Score: <span id="score">0</span></div>
+  <div>Time: <span id="timer">30</span>s</div>
+  <div>High Score: <span id="highScore">0</span></div>
+  <button id="startBtn">Start</button>
+</div>
+
+<script src="game.js"></script>
+
 </body>
 </html>
