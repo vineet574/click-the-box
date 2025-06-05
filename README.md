@@ -29,4 +29,15 @@ High Score Tracking.
 Game Over Message.
 
 Responsive Styling & Smooth Transitions.
+New Features Added:
+Sound effects (on box click and game end)
 
+Countdown before game starts
+
+Pause/Resume functionality
+
+Box color changes on each click
+
+Display final score at the end
+
+Add difficulty level (speed changes)
